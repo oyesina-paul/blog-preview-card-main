@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1rem;
+    border: solid 1px black;
+    border-right: solid 8px black;
+    border-bottom: solid 8px black;
+    padding: 1rem;
+    margin-left: 30rem;
+}
+
+h1 {
+    font-family: "Figtree", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    margin-right: 10rem;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    color:  hsl(0, 0%, 50%);
+}
+
+.publish {
+    color: hsl(0, 0%, 7%);
+}
+
+.pic >img {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.btn{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.2rem;
+    border-style: none;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    padding: 0.3rem 0.8rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: hsl(47, 88%, 63%);
+}
+
+.Greg{
+    display: flex;
+    gap: 1em;
+}
+
+
+.Greg > img {
+    height: 2rem;
+    width: 2rem; 
+    margin-top: 0.8rem;
+}
